@@ -21,11 +21,7 @@ int binSearch(int a[],int ele,int n)
         {
             low=mid+1;
         }
-        else if(high==low)
-        {
-            
-            return low;
-        }
+       
     }
 return -1;
 }
